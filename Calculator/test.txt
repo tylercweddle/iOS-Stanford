@@ -1,0 +1,48 @@
+Last login: Wed Feb  7 18:29:26 on ttys003
+LIBRWKEPLM1F1:~ tweddle$ cd Desktop
+LIBRWKEPLM1F1:Desktop tweddle$ cd Calculator/
+LIBRWKEPLM1F1:Calculator tweddle$ ls
+#test.txt#		Calculator.xcodeproj	CalculatorUITests
+Calculator		CalculatorTests
+LIBRWKEPLM1F1:Calculator tweddle$ rm \#test.txt# 
+LIBRWKEPLM1F1:Calculator tweddle$ ls
+Calculator		CalculatorTests
+Calculator.xcodeproj	CalculatorUITests
+LIBRWKEPLM1F1:Calculator tweddle$ emacs test.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+This is a Git test.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-uuu:**-F1  test.txt       All L1     (Text)------------------------------------
+

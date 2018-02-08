@@ -14,6 +14,7 @@
 		67D4E2F5202BAB11004BAF8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67D4E2F3202BAB11004BAF8D /* LaunchScreen.storyboard */; };
 		67D4E300202BAB11004BAF8D /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D4E2FF202BAB11004BAF8D /* CalculatorTests.swift */; };
 		67D4E30B202BAB11004BAF8D /* CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D4E30A202BAB11004BAF8D /* CalculatorUITests.swift */; };
+		67D4E319202BB2B9004BAF8D /* CalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D4E318202BB2B9004BAF8D /* CalculatorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		67D4E306202BAB11004BAF8D /* CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67D4E30A202BAB11004BAF8D /* CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorUITests.swift; sourceTree = "<group>"; };
 		67D4E30C202BAB11004BAF8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67D4E318202BB2B9004BAF8D /* CalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				67D4E2EA202BAB11004BAF8D /* AppDelegate.swift */,
 				67D4E2EC202BAB11004BAF8D /* ViewController.swift */,
+				67D4E318202BB2B9004BAF8D /* CalculatorModel.swift */,
 				67D4E2EE202BAB11004BAF8D /* Main.storyboard */,
 				67D4E2F1202BAB11004BAF8D /* Assets.xcassets */,
 				67D4E2F3202BAB11004BAF8D /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67D4E319202BB2B9004BAF8D /* CalculatorModel.swift in Sources */,
 				67D4E2ED202BAB11004BAF8D /* ViewController.swift in Sources */,
 				67D4E2EB202BAB11004BAF8D /* AppDelegate.swift in Sources */,
 			);
